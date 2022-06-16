@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+  /*  margin: 4px;*/
+}
+
+
+
+
+body{
+    background-image: url(../images/d.jpg);
+    background-repeat: no-repeat;
+    margin: 3px;
+    background-position: center;
+    background-size: cover;
+    height: 99.1vh;
+
+}
+
+
+img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px solid whitesmoke;
+}
+
+
+ul{
+    width: 100%;
+    list-style: none;
+    margin-left: 20px;
+    float: right;
+    display: inline-block;
+    background-color: none;
+    height: 20%;
+
+}
+
+li{
+    float: right;
+    background-color: blue;
+    display: inline-block;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+}
+
+a{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+  
+}
+
+h5{
+    color: darkblue;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*responsive portion*/
+@media(max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 15px;
+    }
+}
+
